@@ -1,0 +1,6 @@
+tqdm
+numpy
+pandas
+matplotlib
+jupyterlab==3.3.3
+ipywidgets==7.7.0

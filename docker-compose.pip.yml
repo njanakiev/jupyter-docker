@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  jupyter:
+    build:
+      context: ./jupyter-pip
+      dockerfile: Dockerfile
+    ports:
+      - 8899:8888
+    volumes:
+      - ./notebooks:/workspace
