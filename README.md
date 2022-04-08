@@ -1,15 +1,15 @@
 # jupyter-docker
 
-Minimal example to user Jupyter with Docker.
+Minimal example to user Jupyter with Docker using either pip or Miniconda with Mamba.
 
 # Usage
 
-To run Jupyter using docker and pip, type:
+To run Jupyter using Docker and pip, type:
 
     docker-compose \
       -f docker-compose.pip.yml up --build
 
-To run Jupyter using docker and [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and [Mamba](https://github.com/mamba-org/mamba), type:
+To run Jupyter using Docker, [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and [Mamba](https://github.com/mamba-org/mamba), type:
 
     docker-compose \
       -f docker-compose.miniconda.yml up --build
